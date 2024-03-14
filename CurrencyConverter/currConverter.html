@@ -11,9 +11,9 @@
     <div class="container">
         <h2>Currency Converter</h2>
         <form>
-            <div class="amoun">
+            <div class="amount">
                 <p>Enter Amount</p>
-                <input type="text" value="100">
+                <input type="text" value="1">
             </div>
             <div class="dropdown">
 
@@ -22,10 +22,7 @@
                     <div class="select-container">
                         <img src="https://flagsapi.com/US/flat/64.png" alt="">
                         <select name="from" id="">
-                            <option value="USD">USD</option>
-                            <option value="INR">INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="AUD">AUD</option>
+                           
                         </select>
                     </div>
                 </div>
@@ -34,11 +31,8 @@
                     <p>To</p>
                     <div class="select-container">
                         <img src="https://flagsapi.com/IN/flat/64.png" alt="">
-                        <select name="to" id="">
-                            <option value="USD">USD</option>
-                            <option value="INR" selected>INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="AUD">AUD</option>
+                        <select name="to">
+                           
                         </select>
                     </div>
                 </div>
@@ -48,6 +42,7 @@
             <button type="submit">Get Exchange Rate</button>
         </form>
     </div>
+    <script src="codes.js"></script>
     <script src="currConverter.js"></script>
 </body>
 </html>
